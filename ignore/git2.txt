@@ -1,0 +1,118 @@
+$ cd /path/to/local/repo
+$ git add .
+$ git commit -m "Added new feature"
+$ git push origin master
+git pull origin main
+git pull origin main
+git pull origin main
+
+git push origin main
+
+push from cmd
+To push code changes to a remote repository from the command line, follow these steps:
+
+Open a terminal/command prompt and navigate to your local repository.
+Use the git add command to stage the files you want to commit.
+Use the git commit command to create a commit with a message describing the changes.
+Use the git push command to push the commit to the remote repository.
+Here's an example:
+
+shell
+Copy code
+$ cd /path/to/local/repo
+$ git add .
+$ git commit -m "Added new feature"
+$ git push origin master
+This will push the changes to the master branch of the remote repository named origin. You may need to authenticate with your username and password or a personal access token, depending on your Git configuration and the remote repository hosting service.
+
+
+
+
+ronandownes@gmail.com
+C:\Users\ronan>cd beef
+
+C:\Users\ronan\beef>git add .
+warning: in the working copy of '.ipynb_checkpoints/1_EDA_Beef-checkpoint.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '1_EDA_Beef.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\ronan\beef>
+
+It looks like you have navigated to the "beef" directory using the command "cd beef". Then, you ran the command "git add ." to stage all changes in the directory for commit. However, there are some warnings indicating that the line endings in some files are going to be replaced by Git. Finally, you are back to the "beef" directory prompt.
+
+
+
+
+ronandownes@gmail.com
+C:\Users\ronan\beef>git commit -m "Added new feature"
+[main bbd1d60] Added new feature
+ 21 files changed, 3798 insertions(+), 2128 deletions(-)
+ create mode 100644 clean/stock_text
+ rename {ignored_files => ignore}/Google Scholar.txt (100%)
+ rename {ignored_files => ignore}/ML.txt (100%)
+ rename {ignored_files => ignore}/beef readme2.txt (100%)
+ rename {ignored_files => ignore}/beef_readme.txt (100%)
+ rename {ignored_files => ignore}/c1.txt (100%)
+ rename {ignored_files => ignore}/cattle_stock.txt (100%)
+ rename {ignored_files => ignore}/chapter structure for this report.txt (100%)
+ rename {ignored_files => ignore}/constant_data.txt (100%)
+ rename {ignored_files => ignore}/difference between git and github.txt (100%)
+ rename {ignored_files => ignore}/eda.txt (100%)
+ create mode 100644 ignore/functions and techniques.txt
+ rename {ignored_files => ignore}/git.txt (100%)
+ rename {ignored_files => ignore}/new 1.txt (100%)
+ rename {ignored_files => ignore}/new2.txt (100%)
+ create mode 100644 ignore/os module.txt
+ rename {ignored_files => ignore}/search for a literature review.txt (100%)
+ rename {ignored_files => ignore}/stock.txt (100%)
+
+C:\Users\ronan\beef>
+It looks like you successfully added and committed changes to your Git repository located in the "beef" directory. The commit message is "Added new feature", and it includes changes to 21 files with 3798 insertions and 2128 deletions. Keep in mind that committing changes is only the first step in pushing changes to a remote repository, and you'll still need to use the "git push" command to push your changes to the remote server.
+
+
+
+
+ronandownes@gmail.com
+error: failed to push some refs to 'https://github.com/ronandownes/beef.git'
+This error usually means that there are some changes in the remote repository that are not present in your local repository, so you need to pull those changes before you can push your own changes.
+
+To resolve this error, try running the following commands:
+
+css
+Copy code
+git pull origin main
+This will pull any changes from the remote repository and merge them into your local branch.
+
+Once you have pulled any changes, you should be able to push your changes to the remote repository using the following command:
+
+css
+Copy code
+git push origin main
+Note that you may need to resolve any merge conflicts that arise during the pull and merge process before you can successfully push your changes.
+
+
+
+
+ronandownes@gmail.com
+C:\Users\ronan\beef>git pull origin main
+From https://github.com/ronandownes/beef
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\ronan\beef>git push origin main
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 314.96 KiB | 7.00 MiB/s, done.
+Total 24 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 5 local objects.
+To https://github.com/ronandownes/beef.git
+   75294e5..bbd1d60  main -> main
+It looks like the git pull origin main command was successful in pulling any changes made to the remote main branch to your local repository. Then, the git push origin main command pushed your local changes to the remote main branch on GitHub. The output shows that 24 objects were written and there were 6 deltas that needed to be resolved. The final line shows the commit hash of the most recent commit on the main branch before and after the push.
+
+
+
+
+
+
+
