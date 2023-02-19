@@ -1,0 +1,40 @@
+
+# View the first few rows of the data:
+
+
+df.head()
+#Check the dimensions of the data:
+
+
+df.shape
+#Check the data types of the columns:
+
+
+df.dtypes
+#Check for missing values in the data:
+
+
+df.isnull().sum()
+#Check the basic statistics of the data:
+
+
+df.describe()
+#Check the unique values in each column:
+
+
+df.nunique()
+#Check the correlation between variables:
+
+
+df.corr()
+#Visualize the distribution of a variable:
+
+
+
+plt.hist(df['column_name'])
+#Visualize the relationship between two variables:
+
+
+
+sns.scatterplot(x='column1', y='column2', data=df)
+#These are just a few examples of common EDA code to perform on a DataFrame, and there are many more techniques and visualizations you can use depending on your specific data and research questions.

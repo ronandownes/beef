@@ -1,0 +1,4 @@
+difference between git and github
+Git is a version control system that helps track changes to source code over time. It was created by Linus Torvalds, the same person who created the Linux operating system. Git is a command-line tool that allows developers to track changes to their code, collaborate with other developers, and revert changes if necessary. Git can be used on its own, without any cloud-based services.
+
+GitHub, on the other hand, is a web-based hosting service that allows developers to store their Git repositories in the cloud. GitHub provides a user-friendly interface for managing Git repositories, including features such as pull requests, issues, and project management tools. GitHub also enables collaboration between developers, allowing them to contribute to each other's projects and share code with one another. GitHub is just one of many cloud-based services that can host Git repositories, but it is one of the most popular and widely used.

@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\caption{Features and Data Types}
+\label{tab:features}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Feature} & \textbf{Data Type} \ \hline
+Area Code (M49) & int64 \
+Area & object \
+Element Code & int64 \
+Element & object \
+Item Code (CPC) & int64 \
+Item & object \
+Year Code & int64 \
+Year & int64 \
+Unit & object \
+Value & float64 \
+Flag & object \
+Flag Description & object \ \hline
+\end{tabular}
+\end{table}
+
+Note that the table is enclosed within a "table" environment, and the "centering" command centers the table horizontally. The "caption" command adds a caption to the table, and the "label" command labels the table for cross-referencing. The "tabular" environment creates the table, with vertical lines separating the columns, and the "hline" command adds horizontal lines to the table. The first column contains the features, and the second column contains the corresponding data types.
+
