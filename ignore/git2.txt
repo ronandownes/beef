@@ -1,7 +1,15 @@
-$ cd /path/to/local/repo
-$ git add .
-$ git commit -m "Added new feature"
-$ git push origin master
+
+
+ git add . 
+ && git commit -m "Added new feature" 
+ && git pull origin main 
+ && git push origin main
+
+
+cd /path/to/local/repo
+git add .
+git commit -m "Added new feature"
+git push origin master
 git pull origin main
 git pull origin main
 git pull origin main
