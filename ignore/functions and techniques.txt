@@ -1,0 +1,95 @@
+functions and techniques:
+
+Data Cleaning:
+
+df.dropna()
+df.fillna()
+df.clip()
+df.replace()
+df.drop_duplicates()
+df.drop_duplicates()
+df.fillna()
+df.merge()
+df.pivot()
+df.rename()
+df.query()
+df.dropna(axis=0, inplace=True)
+df['column_name'].interpolate(inplace=True)
+os.listdir('data')
+
+Data Wrangling:
+
+df.melt()
+df.pivot()
+df.stack()
+df.unstack()
+df.astype()
+df.get()
+df.apply()
+pd.crosstab()
+pd.concat()
+df.rename()
+df.replace()
+df.sort_values()
+df.transform()
+
+Data Exploration:
+
+df.info()
+df.describe()
+df.value_counts()
+Data Visualization:
+
+plotly.plot()
+seaborn.plot()
+bokeh.plot()
+ggplot.plot()
+matplotlib.plot()
+plot.plot()
+holoviews.plot()
+Data Transformation:
+
+df.log()
+df.exp()
+df.normalize()
+df.scale()
+df.power()
+df.abs()
+df.rescale()
+df.subtract()
+df.divide()
+df.add()
+df.expit()
+df.cumsum()
+Feature Engineering:
+
+df.discretize()
+df.binarize()
+df.rank()
+df.dummies()
+df.group_enc()
+df.interactions()
+df.frequency()
+df.scaling/discretize()
+df.non-linear_trans()
+Time Series Analysis:
+
+df.pct()
+df.shift()
+df.diff()
+df.pct_change()
+df.autocorr()/df.pacf()
+df.rolling()
+df.forecast()
+df.rolling_window()
+Statistical Analysis:
+
+df.describe()
+df.skew()
+df.kurtosis()
+df.corr()
+stats.ttest_ind()
+statsmodels.stats.ztest()
+stats.chi2_contingency()
+stats.f_oneway()
+statsmodels.formula.api.ols()
