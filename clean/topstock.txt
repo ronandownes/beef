@@ -6,3 +6,9 @@ Italy
 Poland
 Netherlands
 Belgium
+Romania
+Austria
+Denmark
+Sweden
+Portugal
+Czechia
